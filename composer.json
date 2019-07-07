@@ -1,0 +1,19 @@
+{
+    "name": "kuzma/parser_http",
+    "description": "Parser http",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kuzma",
+            "email": "v.kuzma@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/php
+<?php
+
+echo "\e[1m Help\e[0m".PHP_EOL;
+echo "\e[1m parse url \e[0m". 'Enter parse url address for parsing'.PHP_EOL;
+echo "\e[1m report domain \e[0m". 'Enter the domain for which you previously parsed'.PHP_EOL;
+echo "\e[1m report domain: all\e[0m". 'If you enter all get a list of all parsed domains'.PHP_EOL;
+echo "\e[1m help \e[0m". 'The Help'.PHP_EOL;

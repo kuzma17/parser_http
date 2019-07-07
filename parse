@@ -1,0 +1,14 @@
+#!/usr/bin/php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+$settings = include  __DIR__.'/config/config.php';
+$settings['dir'] = __DIR__;
+
+$line = readline('Enter url ');
+
+$parser = new \App\ImageParser($settings, $line);
+
+$parser->getLinks();
+$parser->writeCsv();
